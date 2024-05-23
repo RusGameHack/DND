@@ -1,0 +1,7 @@
+{
+  "type": "GENERATE",
+  "numImages": 1,
+  "width": 1024,
+  "height": 1024,
+  "generateParams": { "query": "Sun in sky" }
+}
