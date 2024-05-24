@@ -1,8 +1,11 @@
 <template>
   <div>
     <button @click="generateImage">Generate Image</button>
+    <br />
     {{ promptHero }}
+    <br />
     <textarea placeholder="Изображение героя" v-model="promptHero"></textarea>
+    <br />
     <div v-if="imageUrl">
       <img :src="imageUrl" alt="Generated Image" />
     </div>
